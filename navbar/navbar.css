@@ -1,0 +1,51 @@
+.navbar {
+  box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+}
+.navbar__body {
+  height: 70px;
+  justify-content: space-between;
+}
+.navbar__link {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(31, 32, 65, 0.5);
+}
+.navbar-nav {
+  z-index: 1;
+}
+.navbar__btn-outline {
+  font-size: 12px;
+  line-height: 12px;
+  font-weight: 700;
+  color: rgba(188, 156, 255);
+  padding: 10px 20px;
+  border-radius: 22px;
+  border: solid 2px transparent;
+  background-clip: padding-box; /* !importanté*/
+  position: relative;
+  background-color: white;
+  margin-right: 20px;
+  margin-left: 8px;
+}
+.navbar__btn-outline:before {
+  content: '';
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  z-index: -1;
+  margin: -2px; /* !importanté */
+  border-radius: inherit; /* !importanté */
+  background: linear-gradient(rgb(188, 156, 255), rgb(139, 164, 249));
+}
+
+.navbar__btn {
+  font-size: 12px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  background: linear-gradient(rgb(188, 156, 255), rgb(139, 164, 249));
+  padding: 10px 20px;
+  border-radius: 22px;
+  line-height: 12px;
+}
+.navbar__link {
+  margin-right: 4px;
+}

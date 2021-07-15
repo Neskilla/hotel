@@ -1,0 +1,19 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+.main__background {
+  background-image: url(backgroung-image.png);
+  height: 830px;
+  background-size: 100% 100%;
+}
+.main__container {
+  position: relative;
+  height: 830px;
+}
+.main__text {
+  position: absolute;
+  bottom: 18px;
+  right: 0;
+  font-weight: 400;
+  font-size: 14px;
+}
